@@ -7,4 +7,13 @@ En total, tenemos como objetivo recaudar alrededor de **40.000 firmas** (un poco
 
 Al ser un proyecto que toma lugar en la Ciudad de Buenos Aires, el firmante debe tener **domicilio electoral** en la misma.
 
-!()[https://instagram.faep14-2.fna.fbcdn.net/v/t51.2885-15/363818182_212485071421336_3928861437723502304_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyIn0&_nc_ht=instagram.faep14-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=NZCgBUL3X8IAX-UlwcM&edm=ABmJApABAAAA&ccb=7-5&ig_cache_key=MzE1NzEzNDE1MzkyMTE2NTIyMw%3D%3D.2-ccb7-5&oh=00_AfBSUi4DRHd6qk2UzYe3XKFt63QdM_84JbMQDYB4i_6cxA&oe=652CE4CA&_nc_sid=b41fef]
+
+## Datos Necesarios Para Firmar
+![Datos necesarios](/public/datosHoja.jpg)
+
+## Lugares Donde Recolectamos Firmas
+1. **Restaurante Armenia** ![Restaurante Armenio](/public/restaurantesArmenia1.jpg)
+2. **Restaurante Viejo Agump** ![Restaurante Viejo Agump](/public/restaurantesArmenia2.jpg)
+3. **Colegio Mekhitarista** ![Colegio Mekhitarista](/public/restaurantesArmenia3.jpg)
+
+
