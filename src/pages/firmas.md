@@ -12,13 +12,13 @@ Al ser un proyecto que toma lugar en la Ciudad de Buenos Aires, el firmante debe
 
 
 ## Datos Necesarios Para Firmar
-![Datos necesarios](/public/datosHoja.jpg)
+![Datos necesarios](/datosHoja.jpg)
 
 
 ## Lugares Donde Recolectamos Firmas
-1. **Restaurante Armenia** ![Restaurante Armenio](/public/restaurantesArmenia1.jpg)
-2. **Restaurante Viejo Agump** ![Restaurante Viejo Agump](/public/restaurantesArmenia2.jpg)
-3. **Colegio Mekhitarista** ![Colegio Mekhitarista](/public/restaurantesArmenia3.jpg)
+1. **Restaurante Armenia** ![Restaurante Armenio](/restaurantesArmenia1.jpg)
+2. **Restaurante Viejo Agump** ![Restaurante Viejo Agump](/restaurantesArmenia2.jpg)
+3. **Colegio Mekhitarista** ![Colegio Mekhitarista](/restaurantesArmenia3.jpg)
 
 
 
