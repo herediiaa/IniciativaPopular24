@@ -1,0 +1,145 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@layouts/Layout.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import LinkButton from "@components/LinkButton.astro";
+import Hr from "@components/Hr.astro";
+import Card from "@components/Card";
+import Socials from "@components/Socials.astro";
+import getSortedPosts from "@utils/getSortedPosts";
+import slugify from "@utils/slugify";
+import { SOCIALS } from "@config";
+
+const posts = await getCollection("blog");
+
+const sortedPosts = getSortedPosts(posts);
+const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
+
+const socialCount = SOCIALS.filter(social => social.active).length;
+---
+
+<Layout>
+  <Header />
+  <main id="main-content">
+    <section id="hero">
+      <h1 class="mr-2">Iniciativa24</h1>
+      <a
+        target="_blank"
+        
+        class="rss-link"
+        aria-label="rss feed"
+        title="RSS Feed"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" class="rss-icon"
+          ><path
+            d="M19 20.001C19 11.729 12.271 5 4 5v2c7.168 0 13 5.832 13 13.001h2z"
+          ></path><path
+            d="M12 20.001h2C14 14.486 9.514 10 4 10v2c4.411 0 8 3.589 8 8.001z"
+          ></path><circle cx="6" cy="18" r="2"></circle>
+        </svg>
+      </a>
+   
+
+      <p>
+        El desafío más grande de este proyecto comienza hoy.
+        Para que podamos presentar <strong>el Proyecto en la legislatura</strong> para que lo trate y apruebe debemos demostrar que la Ley es de interés para los porteños. Es por ello que debemos juntar al menos las firmas del <strong>1,5%</strong> del padrón electoral de la Ciudad en planillas de papel, y entregarlas a la autoridad gubernamental.
+
+        <br>
+        <br>
+        Para eso necesitamos tu <strong>firma y apoyo</strong>, para esto te dejamos una breve descripción de cómo nos podes ayudar a lo largo del camino.
+        
+      </p>
+      
+      {
+        // only display if at least one social link is enabled
+        socialCount > 0 && (
+          <div class="social-wrapper">
+            <div class="social-links">Redes Sociales:</div>
+            <Socials />
+          </div>
+        )
+      }
+    </section>
+
+    <Hr />
+
+    
+          <section id="featured">
+            <h2>Un Poco Sobre la Iniciativa</h2>
+            <br>
+            <p>
+              A través de la presentación de una<strong> Iniciativa Popular</strong>, buscamos presentar y aprobar un proyecto de Ley para renombrar la actual plazoleta "Alejandro Petion". Además, queremos <strong>construir un memorial</strong> que, no solo recuerde a las víctimas de <strong>Genocidio Armenio</strong>, sino también nuestra lucha como comunidad por su reconocimiento.
+              <br>
+              <br>
+            Por último, no solo buscamos que seas parte firmando, sino que también queremos que, una vez aprobado el proyecto,<strong>todos los firmantes participen en la creación del memorial</strong>.
+              <br>
+              <br>
+            Tenemos un camino largo por recorrer, pero no tenemos dudas de que lo vamos a lograr juntos!🇦🇷🇦🇲
+            </p>
+           
+          </section>
+          <Hr />
+    
+
+    <section id="recent-posts">
+      <h2>Donde Recolectamos Firmas?</h2>
+      <br>
+      <p>Los lugares en donde estamos buscando firmas todas las semanas son los siguientes:
+        <section>
+          <img src="https://instagram.faep14-2.fna.fbcdn.net/v/t51.2885-15/377330789_990165418765134_9057668147813120882_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDI0eDEwMjQuc2RyIn0&_nc_ht=instagram.faep14-2.fna.fbcdn.net&_nc_cat=106&_nc_ohc=X_Lf-fzh-jsAX9uj_2n&edm=ACWDqb8BAAAA&ccb=7-5&ig_cache_key=MzE5MDU0MzM3MDI1NzE0NDY2Ng%3D%3D.2-ccb7-5&oh=00_AfA7Lxp-zQSs_kZezppoBedDTD7RghC46ykVkLRObz7H0A&oe=652CC1ED&_nc_sid=ee9879" alt="Restaurante Armenia">
+        </section>
+     
+      <div class="all-posts-btn-wrapper">
+        <LinkButton href="/posts">
+          All Posts
+          <svg xmlns="http://www.w3.org/2000/svg"
+            ><path
+              d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
+            ></path>
+          </svg>
+        </LinkButton>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>
+
+<style>
+  /* ===== Hero Section ===== */
+  #hero {
+    @apply pb-6 pt-8;
+  }
+  #hero h1 {
+    @apply my-4 inline-block text-3xl font-bold sm:my-8 sm:text-5xl;
+  }
+  #hero .rss-link {
+    @apply mb-6;
+  }
+  #hero .rss-icon {
+    @apply mb-2 h-6 w-6 scale-110 fill-skin-accent sm:mb-3 sm:scale-125;
+  }
+  #hero p {
+    @apply my-2;
+  }
+  .social-wrapper {
+    @apply mt-4 flex flex-col sm:flex-row sm:items-center;
+  }
+  .social-links {
+    @apply mb-1 mr-2 whitespace-nowrap sm:mb-0;
+  }
+
+  /* ===== Featured & Recent Posts Sections ===== */
+  #featured,
+  #recent-posts {
+    @apply pb-6 pt-12;
+  }
+  #featured h2,
+  #recent-posts h2 {
+    @apply text-2xl font-semibold tracking-wide;
+  }
+  .all-posts-btn-wrapper {
+    @apply my-8 text-center;
+  }
+</style>
