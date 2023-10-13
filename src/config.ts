@@ -1,11 +1,11 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
+  website: "", // replace this with your deployed domain
   author: "24deAbril",
   desc: "Somos un grupo de jóvenes de la comunidad armenia que queremos que nuestra iniciativa sea Ley",
   title: "24 de Abril",
-  ogImage: "iniciativa24Grande.jpg",
+  ogImage: "/iniciativa24Grande.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
 };

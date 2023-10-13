@@ -56,7 +56,7 @@ window.onload = () => {
 
     // now this script can find and listen for clicks on the control
     document.querySelector("#theme-btn")?.addEventListener("click", () => {
-      themeValue = themeValue === "light" ? "dark" : "light";
+      themeValue = themeValue === "dark" ? "light" : "dark";
       setPreference();
     });
   }
@@ -69,8 +69,8 @@ window.onload = () => {
 
 // sync with system changes
 window
-  .matchMedia("(prefers-color-scheme: dark)")
+  .matchMedia("(prefers-color-scheme: light)")
   .addEventListener("change", ({ matches: isDark }) => {
-    themeValue = isDark ? "dark" : "light";
+    themeValue = isDark ? "light" : "dark";
     setPreference();
   });
