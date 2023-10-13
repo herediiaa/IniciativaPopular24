@@ -1,7 +1,7 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "", // replace this with your deployed domain
+  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
   author: "24deAbril",
   desc: "Somos un grupo de jóvenes de la comunidad armenia que queremos que nuestra iniciativa sea Ley",
   title: "24 de Abril",
