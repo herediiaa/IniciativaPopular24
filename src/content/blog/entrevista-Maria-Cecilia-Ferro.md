@@ -1,5 +1,5 @@
 ---
-title: Entrevista a la Legisladora "Maria Cecilia Ferrro"
+title: Entrevista a la Legisladora Maria Cecilia Ferrro
 author: Maria Cecilia Ferrero
 pubDatetime: 2006-07-05
 featured: true

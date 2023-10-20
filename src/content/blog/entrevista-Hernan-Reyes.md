@@ -1,5 +1,5 @@
 ---
-title: Entrevista al legislador "Hernan Reyes"
+title: Entrevista al legislador Hernan Reyes
 author: Hernan Reyes
 pubDatetime: 2000-10-09
 featured: true

@@ -1,5 +1,5 @@
 ---
-title: Entrevista al Dr. "Carlos Kambourian"
+title: Entrevista al Dr. Carlos Kambourian
 author: Carlos Kambourian
 pubDatetime: 2005-07-05
 featured: true

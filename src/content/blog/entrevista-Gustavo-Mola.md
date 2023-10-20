@@ -1,5 +1,5 @@
 ---
-title: Entrevista al Legislador "Gusavo Mola"
+title: Entrevista al Legislador Gusavo Mola
 author: Gustavo Mola
 pubDatetime: 2004-07-05
 featured: true

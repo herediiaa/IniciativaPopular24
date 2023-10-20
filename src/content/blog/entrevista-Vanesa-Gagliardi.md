@@ -1,5 +1,5 @@
 ---
-title: Entrevista a "Vanesa Gagliardi"
+title: Entrevista a Vanesa Gagliardi
 author: Vanesa Gagliardi
 pubDatetime: 2001-21-10
 featured: true
