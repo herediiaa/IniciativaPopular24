@@ -3,9 +3,7 @@ import { LOGO_IMAGE, SITE } from "@config";
 import Hr from "./Hr.astro";
 import LinkButton from "./LinkButton.astro";
 
-export interface Props {
-  activeNav?: "posts" | "tags" | "about" | "search";
-}
+
 
 const { activeNav } = Astro.props;
 ---
@@ -68,6 +66,11 @@ const { activeNav } = Astro.props;
           <li>
             <a href="/preguntas" >
               Preguntas
+            </a>
+          </li>
+          <li>
+            <a href="/entrevistas" >
+              Entrevistas
             </a>
           </li>
 

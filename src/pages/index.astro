@@ -23,7 +23,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1 class="mr-2">Iniciativa24</h1>
+      <h1 class="mr-2">Iniciativa "24 de Abril"</h1>
       <a
         target="_blank"
         
@@ -43,20 +43,22 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 
       <p>
         El desafío más grande de este proyecto comienza hoy.
-        Para que podamos presentar <strong>el Proyecto en la legislatura</strong> para que lo trate y apruebe debemos demostrar que la Ley es de interés para los porteños. Es por ello que debemos juntar al menos las firmas del <strong>1,5%</strong> del padrón electoral de la Ciudad en planillas de papel, y entregarlas a la autoridad gubernamental.
+        Para que podamos presentar <strong>el proyecto de Ley en la legislatura</strong> para que este sea tratado y aprobado, debemos demostrar que la Ley es de interés para los porteños. 
 
         <br>
         <br>
-        Para eso necesitamos tu <strong>firma y apoyo</strong>, para esto te dejamos una breve descripción de cómo nos podes ayudar a lo largo del camino.
+        Para eso necesitamos tu <strong>firma y apoyo</strong>. Te dejamos una breve descripción de cómo nos podes ayudar a lo largo del camino.
         
       </p>
+      <img src="/iniciativa24Grande.jpg" alt="asd">
       
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
           <div class="social-wrapper">
             <div class="social-links">Redes Sociales:</div>
-            <Socials />
+            <Socials /> 
+            Instagram
           </div>
         )
       }
@@ -69,10 +71,10 @@ const socialCount = SOCIALS.filter(social => social.active).length;
             <h2>Un Poco Sobre la Iniciativa</h2>
             <br>
             <p>
-              A través de la presentación de una<strong> Iniciativa Popular</strong>, buscamos presentar y aprobar un proyecto de Ley para renombrar la actual plazoleta "Alejandro Petion". Además, queremos <strong>construir un memorial</strong> que, no solo recuerde a las víctimas de <strong>Genocidio Armenio</strong>, sino también nuestra lucha como comunidad por su reconocimiento.
+              A través de la presentación de una<strong> Iniciativa Popular</strong> (ley 40 C.A.B.A), buscamos presentar y aprobar un proyecto de Ley para renombrar la actual plazoleta "Alejandro Petion" por "24 de Abril". Además, queremos <strong>construir un memorial</strong> que, no solo recuerde a las víctimas de <strong>Genocidio Armenio</strong>, sino también nuestra lucha como comunidad por su reconocimiento.
               <br>
               <br>
-            Por último, no solo buscamos que seas parte firmando, sino que también queremos que, una vez aprobado el proyecto,<strong>todos los firmantes participen en la creación del memorial</strong> si te interesa leer el proyecto de ley completo podes descargarlo <a style="color:orange" download="Proyecto_Ley_24_de_Abril.pdf" href="/proyecto_de_ley.pdf" class="button">
+            Por último, no solo buscamos que seas parte firmando, sino que también queremos que, una vez aprobado el proyecto,<strong> los firmantes participen en la creación del memorial.</strong> Si te interesa leer el proyecto de Ley completo podes descargarlo <a style="color:orange" download="Proyecto_Ley_24_de_Abril.pdf" href="/proyecto_de_ley.pdf" class="button">
              <strong>ACA</strong><i class=""></i>
             </a>.
               <br>
@@ -84,15 +86,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
           <Hr />
     
 
-    <section id="recent-posts">
-      
-     
-     <h2>Quienes Somos Nosotros</h2>
-     <br>
-     <p>Somos un grupo de jovenes de la comunidad Armenia en Argentina que queremos que nuestra iniciativa sea Ley</p>
-     <br>
-     <img src="https://static.eldiario.es/clip/f6e29b67-7190-4999-87ad-58ec135dfdaa_16-9-discover-aspect-ratio_default_0.jpg" alt="grupo de jovenes en argentina">
-    </section>
+   
   </main>
 
   <Footer />

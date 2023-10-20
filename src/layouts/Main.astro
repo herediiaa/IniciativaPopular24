@@ -27,6 +27,7 @@ const { props } = Astro;
           {props.pageTitle[1]}
         </span>
       </h1>
+
     ) : (
       <h1>{props.pageTitle}</h1>
     )
@@ -42,6 +43,7 @@ const { props } = Astro;
   #main-content h1 {
     @apply text-2xl font-semibold sm:text-3xl;
   }
+
   #main-content p {
     @apply mb-6 mt-2 italic;
   }

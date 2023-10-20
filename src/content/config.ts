@@ -20,6 +20,8 @@ const blog = defineCollection({
         .optional(),
       description: z.string(),
       canonicalURL: z.string().optional(),
+      entrevistadoFoto: z.string().optional(),
+      entrevistaUrl: z.string().optional()
     }),
 });
 

@@ -9,7 +9,7 @@ export interface Props {
 }
 
 export default function Card({ href, frontmatter, secHeading = true }: Props) {
-  const { title, pubDatetime, description } = frontmatter;
+  const { title, pubDatetime, description, entrevistadoFoto, entrevistaUrl} = frontmatter;
 
   const headerProps = {
     style: { viewTransitionName: slugifyStr(title) },
@@ -17,9 +17,10 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
   };
 
   return (
-    <li className="my-6">
+    <li className="my-8 grid sm:flex">
+      <div>
       <a
-        href={href}
+        href={entrevistaUrl}
         className="inline-block text-lg font-medium text-skin-accent decoration-dashed underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0"
       >
         {secHeading ? (
@@ -28,8 +29,13 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
           <h3 {...headerProps}>{title}</h3>
         )}
       </a>
-      <Datetime datetime={pubDatetime} />
+
       <p>{description}</p>
+      </div>
+      <div>
+        <img src={entrevistadoFoto} alt="foto del entrevistado" />
+      </div>
+      
     </li>
   );
 }
