@@ -17,7 +17,7 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
   };
 
   return (
-    <li className="my-8 grid sm:flex">
+    <li className="my-8 grid sm:gap-4  sm:flex">
       <div>
       <a
         href={entrevistaUrl}
@@ -32,8 +32,8 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
 
       <p>{description}</p>
       </div>
-      <div>
-        <img src={entrevistadoFoto} alt="foto del entrevistado" />
+      <div >
+        <img src={entrevistadoFoto} style={{ width: '1500px', height: 'auto' }} alt="foto del entrevistado" />
       </div>
       
     </li>
