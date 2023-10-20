@@ -25,7 +25,7 @@ Fue un político haitiano que presidió el pais desde 1807 hasta su muerte en 18
 Debido a su importancia por la historia de Haiti, su persona será trasladada a otro espacio para no perder su memoria.
 
 
-## ¿Quienes pueden firmar?
+## ¿Quiénes pueden firmar?
 Cualquier persona que sea **mayor a 16 años** y vote en **C.A.B.A** puede firmar las planillas del proyecto. Las personas que **no** estén en el padrón electoral de capital podrán apoyarnos seguiendonos en Instagram [iniciativa.24_4](https://instagram.com/iniciativa.24_4?igshid=MzRlODBiNWFlZA==) y difundiendo la causa.
 
 
