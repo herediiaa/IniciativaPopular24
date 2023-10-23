@@ -3,6 +3,7 @@
   "version": "3.0.0",
   "scripts": {
     "dev": "tinacms dev -c 'astro dev'",
+    "tinacms": "tinacms",
     "start": "astro dev",
     "build": "astro build && jampack ./dist",
     "preview": "astro preview",
