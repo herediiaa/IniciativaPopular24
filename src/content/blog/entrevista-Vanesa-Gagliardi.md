@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: Entrevista a Vanesa Gagliardi
 description: >-
   Ella es Vanesa Gagliardi, docente y directiva de ADEMyS y actual legisladora
@@ -13,4 +14,7 @@ featured: false
 draft: false
 entrevistadoFoto: /movimiento.jpg
 entrevistaUrl: "https://youtu.be/n97GAF6BnuA"
+=======
+title: Entrevista a Vanesa Gagliard
+>>>>>>> d5e77e271c49784f3a1c175d2cd7c25c7c7c74a3
 ---
