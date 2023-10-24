@@ -2,7 +2,7 @@
   "name": "iniciativa24",
   "version": "3.0.0",
   "scripts": {
-    "dev": "tinacms dev -c 'astro dev'",
+    "dev": "tinacms build -c 'astro build'",
     "tinacms": "tinacms",
     "start": "astro dev",
     "build": "astro build && jampack ./dist",
