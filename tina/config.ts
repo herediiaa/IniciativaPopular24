@@ -23,7 +23,7 @@ export default defineConfig({
       {
         name: "post",
         label: "Posts",
-        path: "content/posts",
+        path: "src/content/",
         fields: [
           {
             type: "string",
@@ -38,6 +38,21 @@ export default defineConfig({
             label: "Body",
             isBody: true,
           },
+          {
+            type: "string",
+            name: "description",
+            label: "Description",
+            required: true
+          },
+          {
+            label: "Date",
+            name: "date",
+            type: "datetime",
+            ui: {
+              dateFormat: 'YY-MM-DD',
+              parse: (value) => value && value.format('YY-MM-DD'),
+            },
+          }
         ],
       },
     ],

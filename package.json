@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "tinacms build -c 'astro build'",
     "tinacms": "tinacms",
-    "start": "astro dev",
+    "start": "tinacms dev -c 'astro dev'",
     "build": "astro build && jampack ./dist",
     "preview": "astro preview",
     "sync": "astro sync",
