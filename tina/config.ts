@@ -35,10 +35,10 @@ export default defineConfig({
           {
             type: "string",
             name: "author",
-            label: "autor",
+            label: "Autor",
           },
           {
-            label: "Date",
+            label: "Fecha",
             name: "pubDatetime",
             type: "datetime",
             ui: {
@@ -49,27 +49,27 @@ export default defineConfig({
           {
             type: "boolean",
             name: "featured",
-            label: "feature"
+            label: "Feature"
           },
           {
             type: "boolean",
             name: "draft",
-            label: "draft"
+            label: "Draft"
           },
           {
             type: 'image',
-            label: 'foto del entrevistado',
+            label: 'Imagen',
             name: 'entrevistadoFoto',
           },
           {
             type: "string",
-            label: "entrevista",
+            label: "Entrevista",
             name: "entrevistaUrl"
           },
           {
             type: "string",
             name: "description",
-            label: "Description",
+            label: "Descripcion",
             required: true
           },
           {
