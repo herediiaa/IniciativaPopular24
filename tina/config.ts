@@ -38,12 +38,11 @@ export default defineConfig({
             label: "Autor",
           },
           {
-            label: "Fecha",
+            label: "Date",
             name: "pubDatetime",
             type: "datetime",
             ui: {
-              dateFormat: 'YY-MM-DD',
-              parse: (value) => value && value.format('YY-MM-DD'),
+              timeFormat: "HH:mm"
             },
           },
           {
