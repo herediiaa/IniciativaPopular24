@@ -33,10 +33,38 @@ export default defineConfig({
             required: true,
           },
           {
-            type: "rich-text",
-            name: "body",
-            label: "Body",
-            isBody: true,
+            type: "string",
+            name: "author",
+            label: "autor",
+          },
+          {
+            label: "Date",
+            name: "pubDatetime",
+            type: "datetime",
+            ui: {
+              dateFormat: 'YY-MM-DD',
+              parse: (value) => value && value.format('YY-MM-DD'),
+            },
+          },
+          {
+            type: "boolean",
+            name: "featured",
+            label: "feature"
+          },
+          {
+            type: "boolean",
+            name: "draft",
+            label: "draft"
+          },
+          {
+            type: 'image',
+            label: 'foto del entrevistado',
+            name: 'entrevistadoFoto',
+          },
+          {
+            type: "string",
+            label: "entrevista",
+            name: "entrevistaUrl"
           },
           {
             type: "string",
@@ -45,14 +73,16 @@ export default defineConfig({
             required: true
           },
           {
-            label: "Date",
-            name: "date",
-            type: "datetime",
-            ui: {
-              dateFormat: 'YY-MM-DD',
-              parse: (value) => value && value.format('YY-MM-DD'),
-            },
-          }
+            type: "rich-text",
+            name: "body",
+            label: "Body",
+            isBody: true,
+          },
+      
+     
+  
+ 
+    
         ],
       },
     ],
