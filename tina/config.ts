@@ -23,7 +23,7 @@ export default defineConfig({
       {
         name: "post",
         label: "Posts",
-        path: "src/content/",
+        path: "src/content/blog",
         fields: [
           {
             type: "string",
@@ -67,7 +67,7 @@ export default defineConfig({
           },
           {
             type: "string",
-            name: "description",
+            name: "description", 
             label: "Descripcion",
             required: true
           },
