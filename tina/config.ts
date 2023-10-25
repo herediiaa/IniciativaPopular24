@@ -28,7 +28,7 @@ export default defineConfig({
           {
             type: "string",
             name: "title",
-            label: "Title",
+            label: "Titulo",
             isTitle: true,
             required: true,
           },
@@ -38,7 +38,7 @@ export default defineConfig({
             label: "Autor",
           },
           {
-            label: "Date",
+            label: "Fecha",
             name: "pubDatetime",
             type: "datetime",
             ui: {
@@ -53,7 +53,7 @@ export default defineConfig({
           {
             type: "boolean",
             name: "draft",
-            label: "Draft"
+            label: "Borrador"
           },
           {
             type: 'image',
