@@ -62,7 +62,7 @@ export default defineConfig({
           },
           {
             type: "string",
-            label: "Entrevista",
+            label: "Link de Entrevista",
             name: "entrevistaUrl"
           },
           {
