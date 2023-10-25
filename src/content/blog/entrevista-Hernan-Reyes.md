@@ -5,7 +5,7 @@ pubDatetime: 2000-10-09T00:00:00.000Z
 featured: true
 draft: false
 entrevistadoFoto: /legislador.jpg
-entrevistaUrl: 'https://www.youtube.com/watch?v=n97GAF6BnuA&t=1s'
+entrevistaUrl: 'https://youtu.be/edgikePoMbE?feature=shared'
 description: >-
   Él es Hernán Reyes, abogado, Miembro de la Mesa Nacional de la Coalición
   Cívica ARI, actual Legislador Porteño por Vamos Juntos y presidente de la
