@@ -1,5 +1,5 @@
 ---
-title: Entrevista a Maria Cecilia Ferrro
+title: Entrevista a Maria Cecilia Ferrero
 author: Maria Cecilia Ferrero
 pubDatetime: 2006-07-05T00:00:00.000Z
 featured: true
